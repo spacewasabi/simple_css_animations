@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+div#slideshow figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 30s slider infinite;
+}
+
+div#slideshow figure img {
+  width: 20%;
+  float: left;
+}
+
+@keyframes slider {
+0% { left: 0%; }
+25% { left: 0%; }
+30% { left: -100%; }
+55% { left: -100%; }
+70% { left: -200%; }
+95% { left: -200%; }
+100% { left: -300%; }
+}
