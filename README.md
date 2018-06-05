@@ -13,7 +13,7 @@ Not really. Animations and keyframes are fairly understandable.
 
 + spin_to_win : making a loader, inspired by waiting a few minutes on the League of Legends loading page.
 
-##Next step :
+## Next step :
 I don't know, find a hobby I guess.
 
 ## No, honestly what is this repo?
