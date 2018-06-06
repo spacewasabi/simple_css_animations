@@ -18,6 +18,7 @@ Not really. Animations and keyframes are fairly understandable.
 I don't know, find a hobby I guess.
 Those animations are very small project I might re-use one day (or not).
 You can easily find those online but I found most tutorials boring with unnecessary bullshit where the final result can be pretty simple and straight forward.
+Please don't translate this chinese text
 
 ## No, honestly what is this repo?
 This repo will allow me to try a few stuff with CSS animations.
