@@ -5,6 +5,9 @@ h2 {
 }
 
 .spinner {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
   left: 5%;
   width: 60px;
   height: 60px;
@@ -12,9 +15,6 @@ h2 {
 }
 
 ._one {
-  content: "";
-  box-sizing: border-box;
-  position: absolute;
   top: 20%;
   border: 3px solid lightgray;
   border-top-color: gray;
@@ -22,9 +22,6 @@ h2 {
 }
 
 ._two {
-  content: "";
-  box-sizing: border-box;
-  position: absolute;
   top: 40%;
   border: 2px solid transparent;
   border-top-color: gray;
@@ -33,14 +30,31 @@ h2 {
 }
 
 ._three {
-  content: "";
-  box-sizing: border-box;
-  position: absolute;
   top: 60%;
   border-top: 2px solid gray;
   border-right: 2px solid transparent;
   animation: spinner 1s linear infinite;
 }
+
+._four {
+  top: 85%;
+  border-top: 3px solid red;
+  animation: spinner 1s linear infinite;
+}
+
+._four:before {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  top: -15%;
+  left: -5%;
+  width: 65px;
+  height: 65px;
+  border-top: 3px solid blue;
+  border-radius: 50%;
+  animation: spinner 1.5s linear infinite;
+}
+
 
 @keyframes spinner {
   to {transform: rotate(360deg);}
