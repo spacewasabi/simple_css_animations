@@ -1,0 +1,19 @@
+body {
+  overflow: hidden;
+}
+#yoyo {
+  width: 20px;
+  height: 20px;
+  left: 5%;
+  border: 2px solid blueviolet;
+  border-radius: 50%;
+  animation: slidein 3s infinite alternate;
+}
+@keyframes slidein {
+from {
+  margin-top: -100%;
+}
+to {
+  margin-top: 20%;
+}
+}
