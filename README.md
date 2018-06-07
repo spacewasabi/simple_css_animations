@@ -14,6 +14,8 @@ Not really. Animations and keyframes are fairly understandable.
 
 + fb_loader : making an oldschool loader like the one facebook had. I don't know if they still have it since I don't use Facebook anymore.
 
++ yoyo : a circle that goes down and up. I got the idea this morning when I saw a kid with a yoyo in the metro and honestly it was easier than expected.
+
 ## Next step :
 I don't know, find a hobby I guess.
 Those animations are very small project I might re-use one day (or not).
