@@ -16,6 +16,10 @@ Not really. Animations and keyframes are fairly understandable.
 
 + yoyo : a circle that goes down and up. I got the idea this morning when I saw a kid with a yoyo in the metro and honestly it was easier than expected.
 
++ flip : a circle that flips, like a coin. Add some JS maybe and you can do a nice coin-flip. Head or tail?
+
++ swag-shadow : have you seen those old movies with logos that has a cool ass shadow? I tried to do that.
+
 ## Next step :
 I don't know, find a hobby I guess.
 Those animations are very small project I might re-use one day (or not).
@@ -24,3 +28,4 @@ Please don't translate this chinese text
 
 ## No, honestly what is this repo?
 This repo will allow me to try a few stuff with CSS animations.
+Don't expect me to do much styling outside the animations since it's like a lab where I test stuff I'll probably need (or not) in the future. You can contribute, if you think you can teach me a few things (which you probably can).
