@@ -9,36 +9,36 @@ h2 {
   box-sizing: border-box;
   position: absolute;
   left: 5%;
-  width: 60px;
-  height: 60px;
+  width: 6rem;
+  height: 6rem;
   border-radius: 50%;
 }
 
 ._one {
   top: 20%;
-  border: 3px solid lightgray;
+  border: 0.3rem solid lightgray;
   border-top-color: gray;
   animation: spinner 1s linear infinite;
 }
 
 ._two {
-  top: 40%;
-  border: 2px solid transparent;
+  top: 55%;
+  border: 0.2rem solid transparent;
   border-top-color: gray;
   border-bottom-color: gray;
   animation: spinner 1s ease infinite;
 }
 
 ._three {
-  top: 60%;
-  border-top: 2px solid gray;
-  border-right: 2px solid transparent;
+  top: 90%;
+  border-top: 0.2rem solid gray;
+  border-right: 0.2rem solid transparent;
   animation: spinner 1s linear infinite;
 }
 
 ._four {
-  top: 85%;
-  border-top: 3px solid red;
+  top: 125%;
+  border-top: 0.3rem solid red;
   animation: spinner 1s linear infinite;
 }
 
@@ -48,9 +48,9 @@ h2 {
   position: absolute;
   top: -15%;
   left: -5%;
-  width: 65px;
-  height: 65px;
-  border-top: 3px solid blue;
+  width: 6.5rem;
+  height: 6.5rem;
+  border-top: 0.3rem solid blue;
   border-radius: 50%;
   animation: spinner 1.5s linear infinite;
 }
