@@ -20,6 +20,8 @@ Not really. Animations and keyframes are fairly understandable.
 
 + swag-shadow : have you seen those old movies with logos that has a cool ass shadow? I tried to do that.
 
++ sonic : a barely recognizable sonic running around a green-hill-themed rounded rectangle
+
 ## Next step :
 I don't know, find a hobby I guess.
 Those animations are very small project I might re-use one day (or not).
