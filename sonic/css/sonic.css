@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+html {
+    background-image: url("../img/bg.svg");
+    background-repeat: repeat;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container {
+    height: 800px;
+    width: 1600px;
+    position: relative;
+}
+
+#racetrack {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    border: 150px solid transparent;
+    border-radius: 400px;
+    background-image: url("../img/bg.svg");
+    background-clip: padding-box;
+}
+
+#racetrack::after {
+    position: absolute;
+    content: "";
+    top:    -150px;
+    right:  -150px;
+    bottom: -150px;
+    left:   -150px;
+    z-index: -1;
+    background: url("../img/border.gif");
+    border-radius: 400px;
+}
+
+@keyframes movement {
+    0%   {transform: translateX(   0px)                 ;}
+    10%  {transform: translateX( 400px)                 ;}
+    40%  {transform: translateX( 400px) rotateZ(0.5turn);}
+    60%  {transform: translateX(-400px) rotateZ(0.5turn);}
+    90%  {transform: translateX(-400px) rotateZ(  1turn);}
+    100% {transform: translateX(   0px)                 ;}
+}
+
+#moving-bar {
+    position: absolute;
+    left: 750px; /*this centers the bar horizontally*/
+    top: 0;
+    height: 100%;
+    width: 100px;
+
+    animation: 2s linear 0s infinite movement;
+}
+
+#sanic {
+    position: relative;
+    background-color: #061b87;
+    height: 100px;
+    width: 100px;
+    margin-top: 25px;
+    border-radius: 0 50% 50% 0;
+}
+
+.spine {
+    position: absolute;
+    left: -60px;
+    content: "";
+    width: 0;
+    height: 0;
+    border-right:  60px solid #061b87;
+    border-top:    16.67px solid transparent;
+    border-bottom: 16.67px solid transparent;
+    border-left-width: 0;
+}
+
+.spine:first-of-type {
+    top: 0px;
+}
+
+.spine:nth-of-type(1) {
+    top: 33.33px;
+}
+
+.spine:nth-of-type(2) {
+    top: 66.67px;
+}
