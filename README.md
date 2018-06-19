@@ -22,6 +22,8 @@ Not really. Animations and keyframes are fairly understandable.
 
 + sonic : a barely recognizable sonic running around a green-hill-themed rounded rectangle
 
++ barrelroll : a button doing a full rotation when it gets focus (aka pressed) and rotates back when losing it. Should have been a input field spinning when RR or ZZ is entered, but why would CSS care about a dynamic "value" property
+
 ## Next step :
 I don't know, find a hobby I guess.
 Those animations are very small project I might re-use one day (or not).
