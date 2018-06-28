@@ -7,8 +7,7 @@
 
 @media (max-width: 350px) {
   :root {
-    /* add code below */
-    /* add code above */
+    --penguin-size: 200px;
   }
 }
 
