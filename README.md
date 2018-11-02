@@ -8,7 +8,9 @@ Testing CSS animations. Rule : no JavaScript because JavaScript is evil (not rea
 
 Not really. Animations and keyframes are fairly understandable.
 
-## Steps
+## Projects
+
+Each test is a standalone project in the src folder. Each test comes in a separate folder with a CSS folder and sometimes an img folder.
 
 - infinite_loop_slider : manipulating X axis to move a few pics in a slider
 
